@@ -77,13 +77,23 @@ html {
 }
 
 .icons{
-    display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    min-width: 90%;
-    margin-bottom: 0 auto;
-    flex-wrap: wrap;
+}
+
+.icons div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container {
+    text-align: center;
+}
+
+body > section.portfolio > div.container.mt-5 > div > div:nth-child {
+    height: auto;
 }
 
 .icons h4 {
@@ -92,4 +102,53 @@ html {
 
 .portfolio {
     min-height: 100vh;
+}
+
+.portfolio-icons {
+    text-align: center;
+}
+
+.row div {
+    width: 280px;
+    height: 250px;
+}
+
+.icons-container {
+   /* gap: 2rem; */
+}
+
+.row-cols-4 {
+    gap: 1.5rem;
+}
+
+.div1 {
+    background-image: url(/assets/portfolio/work4.jpg);   
+}
+
+.div2 {
+    background-image: url(/assets/portfolio/work3.jpg);
+}
+
+.div3 {
+    background-image: url(/assets/portfolio/work2.jpg);
+}
+
+.div4 {
+    background-image: url(/assets/portfolio/work1.jpg);
+}
+
+.div5 {
+    background-image: url(/assets/portfolio/work5.jpg);
+}
+
+.div6 {
+    background-image: url(/assets/portfolio/work6.jpg);
+}
+
+.div7 {
+    background-image: url(/assets/portfolio/work7.jpg);
+}
+
+.div8 {
+    background-image: url(/assets/portfolio/work8.jpg);
 }
