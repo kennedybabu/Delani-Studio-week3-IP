@@ -77,14 +77,20 @@ html {
 }
 
 .icons{
-    align-items: center;
-    justify-content: space-between;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    margin-top: -3rem;
+}
+
+body > section.portfolio > div.portfolio-icons.mb-5 {
+    margin-top: -2rem;
 }
 
 .icons div {
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 150px;
     flex-direction: column;
 }
 
@@ -92,9 +98,17 @@ html {
     text-align: center;
 }
 
-body > section.portfolio > div.container.mt-5 > div > div:nth-child {
-    height: auto;
+body > section.portfolio > div.container.mt-5 > div {
+    height: 200px;
 }
+
+body > section.portfolio > div.container.mt-5 > div h4 {
+    font-size: .9em;
+}
+
+/* body > section.portfolio > div.container.mt-5 > div {
+    padding: 0 0;
+} */
 
 .icons h4 {
     font-size: .9em;
@@ -111,10 +125,7 @@ body > section.portfolio > div.container.mt-5 > div > div:nth-child {
 .row div {
     width: 280px;
     height: 250px;
-}
-
-.icons-container {
-   /* gap: 2rem; */
+    background-position: center;
 }
 
 .row-cols-4 {
@@ -151,4 +162,14 @@ body > section.portfolio > div.container.mt-5 > div > div:nth-child {
 
 .div8 {
     background-image: url(/assets/portfolio/work8.jpg);
+}
+
+.contact {
+    min-height: 100vh;
+    color: white;
+}
+
+.feedback {
+    min-height: 80vh;
+    background-image: url(/assets/backgrounds/c_image.jpg);
 }
