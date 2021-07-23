@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500&family=Poppins:wght@300;400&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 .hero {
     height: 100vh;
     width: 100vw;
@@ -20,6 +24,8 @@
 
 .hero h2 {
     font-weight: 600;
+    line-height: 1.8;
+    font-size: 2.5em;
 }
 
 .hero p {
@@ -29,4 +35,9 @@
 .mouse-click {
     position: absolute;
     bottom: 2rem;
+}
+
+.about-us {
+    min-height: 100vh;
+    width: 100vw;
 }
