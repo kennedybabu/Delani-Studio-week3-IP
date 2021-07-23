@@ -208,3 +208,27 @@ input, textarea {
     width: 64em;
     
 }
+
+footer {
+    padding: 2rem 0 .3rem 0;
+    color: rgb(20, 20, 20);
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.socials img {
+    height: 40px;
+    width: 40px;
+}
+
+#studio-name {
+    margin-top: 1.5rem;
+}
+
+#year {
+    margin-top: -1rem
+}
