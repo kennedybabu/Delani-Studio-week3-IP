@@ -167,9 +167,44 @@ body > section.portfolio > div.container.mt-5 > div h4 {
 .contact {
     min-height: 100vh;
     color: white;
+    text-align: center;
+    
 }
 
 .feedback {
     min-height: 80vh;
     background-image: url(/assets/backgrounds/c_image.jpg);
+    background-position: center;
+    text-align: end;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    flex-direction: column;  
+}
+
+/* .feedback h3 {
+    margin-top: 1rem;
+} */
+
+input, textarea {
+    background-color: transparent;
+    border: 1px solid white;
+    padding: .5rem;
+}
+
+.input1 {
+    margin-bottom: 1rem;
+}
+
+::placeholder {
+    color: white;
+}
+
+#name, #email {
+    width: 33em;
+}
+
+#message {
+    width: 64em;
+    
 }
