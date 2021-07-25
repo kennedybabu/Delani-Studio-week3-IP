@@ -127,35 +127,43 @@ body > section.portfolio > div.container.mt-5 > div h4 {
 }
 
 .div1 {
-    background-image: url(/assets/portfolio/work4.jpg);   
+    background-image: url(/assets/portfolio/work4.jpg); 
+    position: relative;
 }
 
 .div2 {
     background-image: url(/assets/portfolio/work3.jpg);
+    position: relative;
 }
 
 .div3 {
     background-image: url(/assets/portfolio/work2.jpg);
+    position: relative;
 }
 
 .div4 {
     background-image: url(/assets/portfolio/work1.jpg);
+    position: relative;
 }
 
 .div5 {
     background-image: url(/assets/portfolio/work5.jpg);
+    position: relative;
 }
 
 .div6 {
     background-image: url(/assets/portfolio/work6.jpg);
+    position: relative;
 }
 
 .div7 {
     background-image: url(/assets/portfolio/work7.jpg);
+    position: relative;
 }
 
 .div8 {
     background-image: url(/assets/portfolio/work8.jpg);
+    position: relative;
 }
 
 .contact {
@@ -224,10 +232,45 @@ footer {
     margin-top: -1rem
 }
 
-.back-side {
+.left-back-side,
+.middle-back-side,
+.right-back-side {
     display: none;
 }
 
 .front-side {
     display: inline;
 }
+
+.over-lay,
+.over-lay-2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    text-align: start;
+    display: flex;  
+    color: white; 
+    background-color: rgba(0, 0, 0, 0.582);
+    display: none;
+    transition: all ease-in-out .4s;
+
+    width: 90%;
+    height: 95%;
+}
+
+
+.over-lay h4,
+.over-lay-2 h4,
+.over-lay-3 h4 {
+    border: 2px solid white;
+    padding: 4rem;
+    position: absolute;
+    top: 19%;
+    left: 13%;
+}
+
+
+
