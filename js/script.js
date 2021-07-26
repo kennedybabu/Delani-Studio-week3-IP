@@ -81,32 +81,18 @@ $(document).ready(function(){
 
    
 
-    //submit user input 
-    // $("form").keypress(function(event){        
-    //     if(event.which === 13) {   
-    //         event.preventDefault()
-    //         $("#form").submit()
-    //         return false
-    //     }
-    // })
+  
 })
+
+//submit user input on pressing Enter Key
+
 let submitForm = document.getElementById("#form")
 
-// document.querySelector("f").addEventListener("keyup", function(event){
-//     let userName = document.getElementById("#name").value
-
-//     if(event.keycode === "Enter") {
-//         event.preventDefault()
-//         console.log('hello')
-//         document.getElementById("#form").submit()
-//         return false
-//     }
-// })
-
 document.getElementById("form").addEventListener("keyup", function(e) {
-    let userName = document.getElementById("name").value
+    let userData = document.getElementById("name").value
+    let userName = userData.toLowerCase()
+
     if(e.which === 13) {
-        // e.preventDefault()
         console.log(userName)
         document.getElementById("form").submit()
         alert("Thank you " + userName + " for your feedback!")

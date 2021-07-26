@@ -356,6 +356,11 @@ body > section.portfolio > div.portfolio-icons.mb-5 > div > div {
     .contact {
         min-width: 100vw;
     }
+
+    .about-us,
+    .services {
+        padding: 5px;
+    }
 }
 
 
