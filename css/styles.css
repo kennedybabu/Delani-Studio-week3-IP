@@ -344,6 +344,39 @@ body > section.portfolio > div.portfolio-icons.mb-5 > div > div {
     #message {
         max-width: 60%;
     }
+
+    .socials img {
+        height: 30px;
+        width: 30px;
+    }
+
+    .hero,
+    .about-us,
+    .portfolio,
+    .contact {
+        min-width: 100vw;
+    }
 }
 
+
+@media only screen and (max-width: 770px) {
+    .icons {
+        display: flex;
+        flex-direction: column;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .icons .middle {
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+
+    .hero,
+    .about-us,
+    .portfolio,
+    .contact {
+        min-width: 100vw;
+    }
+}
 

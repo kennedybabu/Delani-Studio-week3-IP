@@ -90,9 +90,9 @@ $(document).ready(function(){
     //     }
     // })
 })
-// let submitForm = document.getElementById("#form")
+let submitForm = document.getElementById("#form")
 
-// document.querySelector("form").addEventListener("keyup", function(event){
+// document.querySelector("f").addEventListener("keyup", function(event){
 //     let userName = document.getElementById("#name").value
 
 //     if(event.keycode === "Enter") {
@@ -103,5 +103,14 @@ $(document).ready(function(){
 //     }
 // })
 
-let 
+document.getElementById("form").addEventListener("keyup", function(e) {
+    let userName = document.getElementById("name").value
+    if(e.which === 13) {
+        // e.preventDefault()
+        console.log(userName)
+        document.getElementById("form").submit()
+        alert("Thank you " + userName + " for your feedback!")
+    }
+})
+
 
