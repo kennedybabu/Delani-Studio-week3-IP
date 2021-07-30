@@ -95,8 +95,19 @@ document.getElementById("form").addEventListener("keyup", function(e) {
     if(e.which === 13) {
         console.log(userName)
         document.getElementById("form").submit()
+
         alert("Thank you " + userName + " for your feedback!")
     }
 })
+
+
+// const mailchimpClient = require("mailchimp_transactional")("YOUR_API_KEY");
+
+// const run = async () => {
+//   const response = await mailchimpClient.exports.list();
+//   console.log(response);
+// };
+
+// run();
 
 
